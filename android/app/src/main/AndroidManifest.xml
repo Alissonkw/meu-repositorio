@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sixamtech.sixam_mart_store_app">
+    package="com.tochegando.parceiros">
 
 
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -38,7 +38,7 @@
         </queries>
 
         <application
-            android:label="6amMart Vendor"
+            android:label="Tô Chegando Delivery Parceiros"
             android:name="${applicationName}"
             android:extractNativeLibs="true"
             android:requestLegacyExternalStorage="true"
@@ -75,7 +75,7 @@
 
             <meta-data
                 android:name="com.google.firebase.messaging.default_notification_channel_id"
-                android:value="6ammart" />
+                android:value="tochegando" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
