@@ -16,7 +16,7 @@ ThemeData dark = ThemeData(
   popupMenuTheme: const PopupMenuThemeData(color: Color(0xFF29292D), surfaceTintColor: Color(0xFF29292D)),
   dialogTheme: const DialogThemeData(surfaceTintColor: Colors.white10),
   floatingActionButtonTheme: FloatingActionButtonThemeData(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(500))),
-  bottomAppBarTheme: const BottomAppBarTheme(color: Colors.black, height: 60, padding: EdgeInsets.symmetric(vertical: 5)),
+  bottomAppBarTheme: const BottomAppBarThemeData(color: Colors.black, height: 60, padding: EdgeInsets.symmetric(vertical: 5)),
   dividerTheme: const DividerThemeData(thickness: 0.2, color: Color(0xFFA0A4A8)),
   tabBarTheme: const TabBarThemeData(dividerColor: Colors.transparent),
 );
